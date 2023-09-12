@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -23,6 +24,22 @@ header {
     background: #FEFEFE;
     border-radius: 50%;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+    background: #FF227F;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+} 
 
 
 
@@ -57,13 +74,11 @@ header {
     height: 36px;
     background: transparent;
     color: #111111;
-    font-family: 'Poppins', sans-serif;
     border: none;
 }
 
 input::placeholder {
     color: #c0c0c0;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
 
@@ -71,7 +86,6 @@ input:focus {
     border: none;
     outline: none;
     background: transparent;
-    font-family: 'Poppins', sans-serif;
     color: #111111;
 }
 
