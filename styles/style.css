@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -137,48 +134,47 @@ nav {
 
 
 .search {
-    width: 95%;
+    width: 98%;
     height: 40px;
     margin: auto;
     padding: 0px 20px 20px 5px;
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 40px 10fr;
     border-radius: 30px;
     border: 2px solid #FF227F;
-    background: #FEFEFE;
-}
-
-.division-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #FFF;
 }
 
 .search-icon {
     grid-column: 1/2;
-    margin-left: 5px;
 }
 
 .input-search {
-    margin-left: 10px;
     grid-column: 2/3;
     width: 100%;
     position: relative;
     height: 36px;
-    background: transparent;
-    color: #111111;
-    border: none;
 }
 
-input::placeholder {
-    color: #c0c0c0;
-    font-weight: 500;
-  }
+/*banners*/
 
-input:focus {
-    border: none;
-    outline: none;
-    background: transparent;
-    color: #111111;
+.carousel-item{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+/*fim*/
+
+/*botoes de baixo*/
+.carousel-indicators{
+    margin-top: 20%;
+}
+
+.carousel-control-prev-icon{
+    margin-right: 40%;
+
+}
+
+.carousel-control-next-icon{
+    margin-left: 30%;
 }
 
