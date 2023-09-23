@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
@@ -211,8 +210,40 @@ input:focus {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 69px;
   width: 100%;
   height: 350px;
   background: #FF227F;
+  padding: 15px 20px;
 }
+
+
+.sidefooter {
+  grid-column: 1/2;
+}
+
+.asidefooter {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px 150px;
+}
+
+.block {
+  display: grid;
+  grid-template-rows: 100px 50px;
+  background: #FEFEFE;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
