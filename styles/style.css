@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -214,7 +217,6 @@ footer {
   grid-template-columns: 1fr 1fr;
   margin-top: 69px;
   width: 100%;
-  height: 350px;
   background: #FF227F;
   padding: 15px 20px;
 }
@@ -234,7 +236,7 @@ footer {
 
 section {
   display: grid;
-  grid-template-columns: 150px 150px;
+  grid-template-columns: 200px 200px;
   grid-template-rows: 150px 150px;
 }
 
@@ -242,8 +244,40 @@ section {
   display: grid;
   grid-template-rows: 100px 50px;
   background: #FEFEFE;
-  margin: 5px;
+  margin: 5px 5px 5px 0;
   padding: 10px;
   border-radius: 10px;
 }
+
+section:has(li:hover) li:not(:hover) {
+  opacity: .6;
+  scale: .95;
+}
+
+.text-footer {
+  color: #FEFEFE;
+  font-size: 1.rem;
+}
+
+@media screen and (min-width:240px) and (max-width:900px){
+  footer {
+    display: block;
+  }
+
+  .asidefooter {
+    display: block;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block {
+    width: 100%;
+    grid-template-rows: 100px;
+  }
+}
+
+
 
