@@ -279,5 +279,39 @@ section:has(li:hover) li:not(:hover) {
   }
 }
 
+/*Estilização do sobre*/
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sobre {
+  grid-column: 1/2;
+  padding-left: 10%;
+}
+
+aside {
+  margin-top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/3;
+}
+
+.sobre-texto {
+  text-align: justify;
+}
+
+@media screen and (min-width:100px) and (max-width:885px) {
+  .principal {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 10%;
+  }
+
+
+}
+
 
 
