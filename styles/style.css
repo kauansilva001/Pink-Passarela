@@ -216,6 +216,8 @@ input:focus {
 
 footer {
   display: grid;
+  position: absolute;
+  bottom: 0;
   grid-template-columns: 1fr 1fr;
   margin-top: 69px;
   width: 100%;
@@ -264,6 +266,7 @@ section:has(li:hover) li:not(:hover) {
 @media screen and (min-width:240px) and (max-width:900px){
   footer {
     display: block;
+    position: static;
   }
 
   .asidefooter {
@@ -315,10 +318,6 @@ aside {
 
 }
 
-.sobre-footer {
-  position: absolute;
-  bottom: 0;
-}
 
 .banner {
   margin-bottom: 60px;
@@ -327,5 +326,9 @@ aside {
 .carrosel-inner {
   margin-left: 5%;
   margin-top: 2%;
+}
+
+.index-footer {
+  position: static;
 }
 
