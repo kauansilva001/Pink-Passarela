@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-body{
-  background-color: #fbf0f0;
-}
-
 
 * {
     box-sizing: border-box;
@@ -17,12 +13,18 @@ header {
     height: 95px;
     margin-bottom: 12px;
     background: #FF227F;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.space-logo, .space-shipping, .space-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ball {
+    grid-column: 2/3;
     width: 60px;
     height: 60px;
     background: #FEFEFE;
@@ -42,12 +44,11 @@ header {
   
   nav {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     background: transparent;
-    height: 8vh;
+    height: 95px;
   }
   
   .nav-list {
