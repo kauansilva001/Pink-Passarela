@@ -151,6 +151,7 @@ header {
     border-radius: 30px;
     border: 2px solid #FF227F;
     background: #FEFEFE;
+    margin-bottom: 30px;
 }
 
 .division-image {
@@ -187,6 +188,7 @@ input:focus {
     background: transparent;
     color: #111111;
 }
+
 .categories {
   margin-top: 66px;
   display: flex;
@@ -313,5 +315,17 @@ aside {
 
 }
 
+.sobre-footer {
+  position: absolute;
+  bottom: 0;
+}
 
+.banner {
+  margin-bottom: 60px;
+}
+
+.carrosel-inner {
+  margin-left: 5%;
+  margin-top: 2%;
+}
 
