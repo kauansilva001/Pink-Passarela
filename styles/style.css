@@ -7,9 +7,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background: #fff6fa;
+}
+
 header {
     width: 100%;
-    height: 95px;
     margin-bottom: 12px;
     background: #FF227F;
     display: grid;
@@ -154,7 +157,7 @@ header {
     grid-template-columns: 10% 90%;
     border-radius: 30px;
     border: 2px solid #FF227F;
-    background: #FEFEFE;
+    background: #fff6fa;
     margin-bottom: 30px;
 }
 
@@ -231,10 +234,8 @@ input:focus {
 }
 
 footer {
-  display: grid;
   position: absolute;
   bottom: 0;
-  grid-template-columns: 1fr 1fr;
   margin-top: 69px;
   width: 100%;
   background: #FF227F;
@@ -242,22 +243,10 @@ footer {
 }
 
 
-.sidefooter {
-  grid-column: 1/2;
-}
-
-.asidefooter {
-  grid-column: 2/3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
 section {
   display: grid;
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 150px 150px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 150px;
 }
 
 .block {
