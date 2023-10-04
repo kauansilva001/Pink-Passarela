@@ -13,7 +13,7 @@ body {
 
 header {
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     background: #FF227F;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -24,14 +24,11 @@ header {
   align-items: center;
   justify-content: center;
 }
+.style-image{
+  display: flex;
+  justify-content: center;
 
-.ball {
-    grid-column: 2/3;
-    width: 60px;
-    height: 60px;
-    background: #FEFEFE;
-    border-radius: 50%;
-}
+  }
 
 .link-menu{
     color: #fff;
@@ -234,8 +231,6 @@ input:focus {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   margin-top: 69px;
   width: 100%;
   background: #FF227F;
@@ -269,7 +264,7 @@ section:has(li:hover) li:not(:hover) {
   margin-bottom: 15px;
 }
 
-@media screen and (min-width:240px) and (max-width:900px){
+@media screen and (min-width:240px) and (max-width:800px){
   footer {
     display: block;
     position: static;
@@ -318,12 +313,23 @@ aside {
   .principal {
     display: flex;
     flex-direction: column-reverse;
-    padding-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
+  .sobre {
+    padding-left: 0;
+  }
 
 }
 
+@media screen and (min-height:900px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+  
+}
 
 .banner {
   margin-bottom: 60px;
@@ -336,5 +342,21 @@ aside {
 
 .index-footer {
   position: static;
+}
+
+.cards-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-categories{
+  width: 270px;
+  padding: 15px;
+  height: 320px;
+  background-color: #111111;
+  border-radius: 40px;
+  margin: 10px;
 }
 
