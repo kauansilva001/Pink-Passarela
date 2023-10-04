@@ -383,3 +383,8 @@ a {
   text-decoration: none;
 }
 
+.card-categories:hover {
+  opacity: 1.2;
+  scale: 1.2;
+}
+
