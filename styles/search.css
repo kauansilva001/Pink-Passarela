@@ -75,3 +75,20 @@ input:focus {
     object-fit: cover;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1070px) {
+    .search {
+      grid-template-columns: 7% 93%;
+    }
+
+    .search-produtos {
+        width: 80%;
+    }
+  }
+  
+  @media screen and (min-width: 1071px) and (max-width: 3000px) {
+    .search {
+      grid-template-columns: 4% 96%;
+    }
+  }
+  

@@ -146,7 +146,7 @@ header {
   }
 
 .search {
-    width: 95%;
+    width: 90%;
     height: 40px;
     margin: auto;
     padding: 0px 20px 20px 5px;
@@ -298,7 +298,6 @@ section:has(li:hover) li:not(:hover) {
 }
 
 aside {
-  margin-top: 69px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,7 +307,9 @@ aside {
 .sobre-texto {
   text-align: justify;
 }
-
+.image-proprietária {
+  width: auto;
+}
 @media screen and (min-width:100px) and (max-width:885px) {
   .principal {
     display: flex;
@@ -319,6 +320,10 @@ aside {
 
   .sobre {
     padding-left: 0;
+  }
+
+  .image-proprietária {
+    width: 95%;
   }
 
 }
@@ -353,6 +358,7 @@ aside {
 
 .card-categories{
   display: grid;
+  cursor: pointer;
   grid-template-rows: 80% 20%;
   width: 280px;
   height: 400px;
@@ -369,5 +375,11 @@ aside {
   justify-content: center;
   align-items: center;
   grid-row: 2/3;
+  text-decoration: none;
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
 }
 
