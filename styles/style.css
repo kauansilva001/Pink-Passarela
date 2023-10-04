@@ -352,11 +352,22 @@ aside {
 }
 
 .card-categories{
-  width: 270px;
-  padding: 15px;
-  height: 320px;
-  background-color: #111111;
-  border-radius: 40px;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  width: 280px;
+  height: 400px;
   margin: 10px;
+}
+
+.description-pijama {
+  grid-row: 1/2;
+  padding-left: 30px;
+}
+
+.description-pijama-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2/3;
 }
 
