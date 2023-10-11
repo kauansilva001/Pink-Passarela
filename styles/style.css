@@ -234,7 +234,29 @@ footer {
   margin-top: 69px;
   width: 100%;
   background: #FF227F;
-  padding: 15px 20px;
+  padding: 15px 50px;
+}
+
+.space-logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.footer-desc {
+  position: relative;
+  bottom: 8px;
+  display: inline-block;
+}
+
+.instagram-logo {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 
@@ -258,32 +280,8 @@ section:has(li:hover) li:not(:hover) {
   scale: .95;
 }
 
-.text-footer {
-  color: #FEFEFE;
-  font-size: 1.rem;
-  margin-bottom: 15px;
-}
 
-@media screen and (min-width:240px) and (max-width:800px){
-  footer {
-    display: block;
-    position: static;
-  }
 
-  .asidefooter {
-    display: block;
-  }
-
-  section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .block {
-    width: 100%;
-    grid-template-rows: 100px;
-  }
-}
 
 /*Estilização do sobre*/
 
@@ -328,13 +326,7 @@ aside {
 
 }
 
-@media screen and (min-height:900px) {
-  footer {
-    position: absolute;
-    bottom: 0;
-  }
-  
-}
+
 
 .banner {
   margin-bottom: 60px;
@@ -343,10 +335,6 @@ aside {
 .carrosel-inner {
   margin-left: 5%;
   margin-top: 2%;
-}
-
-.index-footer {
-  position: static;
 }
 
 .cards-categories {
