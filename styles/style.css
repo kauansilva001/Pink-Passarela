@@ -234,7 +234,7 @@ footer {
   margin-top: 69px;
   width: 100%;
   background: #FF227F;
-  padding: 15px 50px;
+  padding: 15px 30px;
 }
 
 .space-logo {
@@ -244,13 +244,13 @@ footer {
 }
 
 i {
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 5px;
 }
 
 .footer-desc {
   position: relative;
-  bottom: 8px;
+  bottom: 3px;
   display: inline-block;
 }
 
@@ -266,21 +266,16 @@ section {
   grid-template-rows: 150px;
 }
 
-.block {
-  display: grid;
-  grid-template-rows: 100px 50px;
-  background: #FEFEFE;
-  margin: 5px 5px 5px 0;
-  padding: 10px;
-  border-radius: 10px;
+@media screen and (min-width:850px) { /*Funciona em telas maiores de 850px*/
+  .space-logo {
+    align-items: flex-start;
+  }
+
+  .desktop-direction {
+    display: flex;
+    flex-direction: row;
+  }
 }
-
-section:has(li:hover) li:not(:hover) {
-  opacity: .6;
-  scale: .95;
-}
-
-
 
 
 /*Estilização do sobre*/
