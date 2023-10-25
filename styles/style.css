@@ -270,12 +270,6 @@ section {
   grid-template-rows: 150px;
 }
 
-.desktop-direction {
-    display: flex;
-    flex-direction: column;
-  }
-
-
 /*Estilização do sobre*/
 
 .principal {
