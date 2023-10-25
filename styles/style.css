@@ -231,15 +231,19 @@ input:focus {
 }
 
 footer {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 69px;
   width: 100%;
   background: #FF227F;
   padding: 15px 30px;
 }
 
-.space-logo {
+.space-footer1 {
+  grid-column: 1/2;
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -266,16 +270,10 @@ section {
   grid-template-rows: 150px;
 }
 
-@media screen and (min-width:850px) { /*Funciona em telas maiores de 850px*/
-  .space-logo {
-    align-items: flex-start;
-  }
-
-  .desktop-direction {
+.desktop-direction {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
-}
 
 
 /*Estilização do sobre*/
@@ -303,6 +301,7 @@ aside {
 .image-proprietária {
   width: auto;
 }
+
 @media screen and (min-width:100px) and (max-width:885px) {
   .principal {
     display: flex;
@@ -320,8 +319,6 @@ aside {
   }
 
 }
-
-
 
 .banner {
   margin-bottom: 60px;

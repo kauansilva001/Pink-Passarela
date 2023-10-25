@@ -1,0 +1,9 @@
+
+      <h5>Menu</h5>
+      <p class="footer-desc">Sobre</p><br>
+      <p class="footer-desc">Produtos</p><br>
+      <p class="footer-desc">Contatos</p>
+      <div class="space-logo">
+        <img class="instagram-logo" src="imagens/instagram-logo.png" alt="Logotipo do aplicativo Instagram">
+        <p>@passarelapink01</p>
+      </div>
