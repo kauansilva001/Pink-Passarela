@@ -25,9 +25,7 @@ header {
   justify-content: center;
 }
 .style-image{
-  display: flex;
-  justify-content: center;
-
+  padding: 0 60px 0 60px;
   }
 
 .link-menu{
@@ -146,16 +144,23 @@ header {
   }
 
 .search {
-    width: 90%;
+    width: 100%;
     height: 40px;
-    margin: auto;
     padding: 0px 20px 20px 5px;
     display: grid;
     grid-template-columns: 10% 90%;
     border-radius: 30px;
     border: 2px solid #FF227F;
     background: #fff6fa;
-    margin-bottom: 30px;
+   
+}
+
+.aside-search {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  padding-right: 60px;
 }
 
 .division-image {
@@ -245,17 +250,21 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 30px;
 }
 
-i {
-  font-size: 20px;
-  margin-right: 5px;
+.desktop-direction {
+  padding-top: 25px;
+}
+
+.footer-image {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-desc {
   position: relative;
-  bottom: 3px;
-  display: inline-block;
+  text-align: center;
 }
 
 .instagram-logo {
