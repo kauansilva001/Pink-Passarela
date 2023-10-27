@@ -79,6 +79,12 @@ input:focus {
     border-radius: 5px;
 }
 
+
+.produtos img:hover {
+    opacity: 1.2;
+    scale: 1.1;
+  }
+
 @media screen and (max-width: 1070px) {
     .search {
       grid-template-columns: 7% 93%;
@@ -95,6 +101,3 @@ input:focus {
     }
   }
   
-.banner-pijama{
-    
-}
