@@ -144,7 +144,7 @@ header {
   }
 
 .search {
-    width: 100%;
+    margin-right: 20px;
     height: 40px;
     padding: 0px 20px 20px 5px;
     display: grid;
@@ -152,12 +152,10 @@ header {
     border-radius: 30px;
     border: 2px solid #FF227F;
     background: #fff6fa;
-   
 }
 
 .aside-search {
   display: grid;
-  column-gap: 20px;
   grid-template-columns: 80% 20%;
   margin-bottom: 30px;
   margin-left: 60px;
@@ -187,8 +185,8 @@ header {
 }
 
 input::placeholder {
-    color: #c0c0c0;
-    font-weight: 500;
+    color: #020202;
+    font-weight: 400;
     display: unset;
   }
 
@@ -196,7 +194,7 @@ input:focus {
     border: none;
     outline: none;
     background: transparent;
-    color: #111111;
+    color: #020202;
 }
 
 @media screen and (min-width: 830px) and (max-width: 1070px) {
@@ -212,11 +210,28 @@ input:focus {
 }
 
 .figure-button {
+  display: grid;
+  grid-template-columns: 50px 100px;
   width: 100%;
   height: 40px;
   border-radius: 20px;
   border: 2px solid #FF227F;
-  background: #FFF;
+  background: #fff6fa;
+  cursor: pointer;
+}
+
+.icon-girl {
+  position: relative;
+  left: 7px;
+  top: 3px;
+}
+
+.text-log {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #020202;
+  font-weight: 400;
 }
 
 .categories {
@@ -224,15 +239,6 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-
-.bolas {
-  width: 218px;
-  height: 218px;
-  border-radius: 50%;
-  background: #c0c0c0;
-  cursor: pointer;
 }
 
 .description {
