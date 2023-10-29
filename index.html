@@ -8,6 +8,11 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles/style.css">
     <style>
+
+      :root {
+        font-size: 16px;
+      }
+
       @font-face {
         font-family: 'Wonder';
         src: url(fonts/WONDER\ SEASON.otf) format(opentype), url(fonts/WONDER\ SEASON.ttf) format(truetype);
@@ -28,6 +33,12 @@
         color: rgb(255, 255, 255);
       }
 
+      .logo-text {
+        font-family: 'Wonder', serif;
+        color: rgb(255, 255, 255);
+        font-size: 1.6rem;
+      }
+
       h4 {
         font-family: 'Wonder', serif;
         font-size: 30px;
@@ -44,14 +55,29 @@
         margin-top: 20px;
       }
 
-      @media screen and (max-width:1100px) {
+      .logo {
+        display: none;
+      }
+
+      @media screen and (max-width:1024px) {
        h5 {
         font-size: 18px;
        } 
 
       h4 {
        font-size: 20px;
-    }
+      }
+
+      .logo-text {
+        display: none;
+      }
+
+      .logo {
+        display: inline;
+      }
+
+
+
 }
 
 
@@ -97,7 +123,8 @@
           </nav>
         </div>
         <div class="space-logo">
-          <img src="imagens/logo.png" alt="Logotipo da Passarela Pink" style="pointer-events:none;">
+          <p class="logo-text">PASSARELA PINK</p>
+          <img class="logo"  src="imagens/logo.png" alt="Logo da Passarela Pink">
         </div>
         <div class="space-shipping">
         <img src="icons/carrinho.svg" alt="Ícone para acessar o carrinho de compras">
