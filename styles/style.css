@@ -98,9 +98,7 @@ header {
       height: 92vh;
       background: #FEFEFE;
       flex-direction: column;
-      align-items: center;
       transform: translateX(-100%);
-      transition: transform 0.3s ease-in;
     }
     .nav-list li {
       padding: 10px;
@@ -170,7 +168,7 @@ header {
 
 .search-icon {
     grid-column: 1/2;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .input-search {
@@ -199,7 +197,7 @@ input:focus {
 
 .figure-button {
   display: grid;
-  grid-template-columns: 50px 100px;
+  grid-template-columns: 50px 70%;
   width: 100%;
   height: 40px;
   border-radius: 20px;
@@ -234,7 +232,7 @@ input:focus {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
   .style-image {
     padding: 0 20px 0 20px;
   }    
