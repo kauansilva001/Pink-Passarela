@@ -11,14 +11,21 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
+
 
 :root {
     font-size: 16px;
 }
 
+a {
+    color: #000;
+}
+
 body {
     background: #fff6fa;
+    line-height: 1.43;
 }
 
 /*ESTILO DO CABEÇALHO DEFINITIVO*/
@@ -107,11 +114,11 @@ nav {
 
     .nav-list {
         position: absolute;
-        top: 95px;
+        top: 97px;
         left: 0;
         width: 50vw;
         height: 92vh;
-        background: #FEFEFE;
+        background: #fff6fa;
         flex-direction: column;
         transform: translateX(-100%);
     }
@@ -179,3 +186,75 @@ nav {
         display: inline;
     }
 }
+
+/* ESTILO PRODUTOS VITRINE (MOBILE-FIRST) */
+
+ol {
+    font-size: 0.8rem;
+}
+
+.guide {
+    padding-left: 10px;
+}
+
+.guide-text {
+    font-size: 0.8rem;
+}
+
+.image-produto {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text-side {
+    margin: 0 10px 0 10px;
+}
+
+.text-produto {
+    font-size: 1.1rem;
+}
+
+.text-envio {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 7px;
+}
+
+.produto-name {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #888 solid 0.8px;
+    margin-bottom: 22px;
+}
+
+.old-coast {
+    font: 1em sans-serif;
+    color: #888;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.coast {
+    font-size: 24px;
+    color: #FF227F;
+}
+
+.aviso {
+    display: grid;
+    grid-template-columns: 13% 87%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    width: 100%;
+    background-color: #ff8686;
+    border: 1px rgb(143, 36, 36) solid;
+}
+
+.color-box {
+    margin-top: 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    background: #1793ED;
+}
+
